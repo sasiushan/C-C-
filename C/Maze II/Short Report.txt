@@ -1,0 +1,12 @@
+> prog.c file is the main file that runs the map when compiled. 
+> prog.c contains functions from map.c and map.h, linkList.c and openFile.c
+> header file have been created with guards.
+> the maze can be run perfectly. 
+> the maze does not require a parameter as I have not made objects. The openFile method is however capable of opening files and reading inputs.
+> the algorithm used for the snake for simple, where the snake moves according to the input entered by the user. If the head encounters and object the snake is still able to move regardless. The snake does not necessarily chase the head however it is able to move efficiently without crashing or displaying any run time errors. The snake is not able to pass through the borders or any of the walls. The snake is also not able to "eat" the "X". Similarly if the snake comes in contact with the head, or if the head comes in contact with the snake, the game ends and a message is printed along with the final map.
+> Data can be retrieved from the link list without any errors. Data is removed from the linkList each time the user enters 'u'. Once data is received from the removeFirst() function it is inserted into variables to determine the last position of the head. The only limitation is the undo function only works for the head. I am unable to make the undo command work for the snake without having omitted values being displayed on the map. 
+> Makefile has been built.
+> there is 1 error when running make. However executable is successfully created and run.
+> everything else runs fine.
+ 
+

@@ -1,0 +1,5 @@
+> prog.c file is the main file that runs the map when compiled. 
+> prog.c contains functions from map.c and map.h.
+> such functions include getMetadata(), disableBuffer(), enableBuffer().
+> All the task mentioned in the worksheet have been executed and built except for task 3.6: Visibility Distance (with Conditional Compilation)
+> Due to some issues i could not find a solution to task 3.6, however i have set up a condition where if the user inputs more than two parameters in the terminal, the program stops running. The two parameters include (./maze 2) the second parameter can ultimately be any number. If the user inputs a third parameter or more, the program will stop running.
